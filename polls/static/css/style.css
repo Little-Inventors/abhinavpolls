@@ -1,4 +1,19 @@
 a {
-  size: 50%;
-  color: green;
+  font-size: 50px;
+  color:#83a75d
+
 }
+
+body{
+    background-color: lightblue;
+}
+ ul,li{ list-style:none; }
+
+
+  
+  li::before {content: "■"; color: #83a75d;
+    display: inline-block; width: 1em;
+    margin-left: 0.5em; font-size:20pt;}
+
+
+  
